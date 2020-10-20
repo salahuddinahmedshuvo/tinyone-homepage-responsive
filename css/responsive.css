@@ -1,0 +1,195 @@
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .header-section .banner .banner-inner h2 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    .header-section .banner .banner-inner h4 {
+        font-size: 21px;
+        line-height: 31px;
+    }
+    .header-section .banner .banner-inner p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .img{
+        margin-left: -21px;
+    }
+    .header-section .banner .img-inner{
+        margin-left: -13px;
+    }
+    .img-inner .img-po {
+        position: absolute;
+        left: 83px;
+        top: 45%;
+    }
+
+    .feature-section .text-area h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .feature-section .text-area p{
+        font-size: 13px;
+        line-height: 23px;
+    }
+    .feature-section .mt-0 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .feature-section .media p {
+        font-size: 17px;
+        line-height: 27px;
+    }
+    .footer-section .form .form-inner .main-form{
+        width: 50%;
+        margin-left: 16%;
+    }
+    .footer-section .btn-info {
+        position: absolute;
+        right: -33%;
+    }
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    .header-section .banner .banner-inner h2 {
+        font-size: 36px;
+    }
+    .header-section .banner .banner-inner p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .img{
+        text-align: center;
+    }
+    .img-inner .img-po {
+        position: absolute;
+        left: 144px;
+        top: 45%;
+    }
+    .feature-section .text-area h2 {
+        font-size: 46px;
+        line-height: 56px;
+    }
+    .feature-section .text-area p{
+        font-size: 19px;
+        line-height: 29px;
+    }  
+    .feature-section .media img {
+        margin-left: 26px;
+    }
+    .feature-section .media p {
+        font-size: 17px;
+        line-height: 27px;
+    }
+    .footer-section .form .form-inner h2 {
+        font-size: 36px;
+        line-height: 46px;
+    }
+    .footer-section .form .form-inner p {
+        font-size: 10px;
+        line-height: 20px;
+    }
+    .footer-section .form .form-inner .main-form{
+        width: 61%;
+        margin-left: 6%;
+    }
+    .footer-section .btn-info {
+        position: absolute;
+        top: 3%;
+        right: -44%;
+    }
+    .main-footer p{
+        font-size: 27px;
+        line-height: 37px;
+        margin-bottom: 39px;
+        text-align: center;
+    }
+    .main-footer ul li a{
+        font-size: 22px;
+        line-height: 32px;
+    }
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    .header-section .banner .banner-inner h2 {
+        font-size: 23px;
+    }
+    .header-section .banner .banner-inner h4 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .header-section .banner .banner-inner p {
+        font-size: 11px;
+        line-height: 21px;
+    }
+    .img-1{
+        text-align: center;
+    }
+    .img{
+        margin-left: -4px;
+    }
+    .header-section .banner .img-inner{
+        margin-left: -13px;
+    }
+    .img-inner .img-po {
+        position: absolute;
+        left: 83px;
+        top: 45%;
+    }
+    .feature-section .text-area h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .feature-section .text-area p{
+        font-size: 13px;
+        line-height: 23px;
+    }
+    .feature-section .media p {
+        font-size: 13px;
+        line-height: 23px;
+    }
+    .footer-section .form .form-inner h2 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .footer-section .form .form-inner p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .footer-section .form .form-inner .main-form{
+        width: 49%;
+        margin-left: 6%;
+    }
+    .footer-section .btn-info {
+        position: absolute;
+        top: -2%;
+        right: -81%;
+    }
+    .main-footer p{
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 39px;
+        text-align: center;
+    }
+    .main-footer ul li a{
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .footer-section .form .form-inner ul{
+        margin-left: 20px;
+    }
+  }
